@@ -43,4 +43,6 @@ ActiveRecord::Schema.define(version: 20161116033453) do
     t.string   "location"
   end
 
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+
 end
