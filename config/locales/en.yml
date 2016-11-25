@@ -21,3 +21,9 @@
 
 en:
   hello: "Hello world"
+
+  # activerecord:
+  #   attributes:
+  #     user:
+  #       name: 名前
+  #       email: Eメール
